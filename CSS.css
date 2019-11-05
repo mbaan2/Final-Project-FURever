@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #477165;
+    background-color: #EDF5E1;
 }
 
 nav {
@@ -18,7 +18,7 @@ nav div {
     width: 20%;
     height: 118px;
     float: left;
-    background: white;
+    background-color: #345349;
     opacity: 1;
     text-align: center;
     padding-bottom: 5px;
@@ -35,7 +35,7 @@ nav div img {
     width: calc(80%);
     padding: 0px;
     margin: 0px;
-    background-color: white;
+    background-color: #345349;
     opacity: 1;
 
 }
@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #345349;
+    color: white;
     text-align: center;
     padding: 12px 25px;
     text-decoration: none;
@@ -75,7 +75,7 @@ nav ul li a:hover:not(.active){
     width: calc(80%);   
     padding: 0px;
     overflow: hidden;
-    background-color: white;
+    background-color: #345349;
     position: sticky;
     position: -webkit-sticky;
     opacity: 1;
@@ -86,7 +86,7 @@ nav ul li a:hover:not(.active){
 }
 
 .under-nav li a{
-    color: #345349;
+    color: white;
     height: 25px;
 }
 
@@ -100,7 +100,7 @@ nav ul li a:hover:not(.active){
 
 
 main {
-    background: #EBF6F0;
+    background: #D7E7E7;
     margin: 40px 10%;
     border-radius: 25px;
 
@@ -114,6 +114,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     margin: 0;
+    color: #345349;
 }
 
 

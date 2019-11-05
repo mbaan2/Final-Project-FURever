@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #EDF5E1;
     text-align: center;
     padding: 12px 25px;
     text-decoration: none;
@@ -86,7 +86,7 @@ nav ul li a:hover:not(.active){
 }
 
 .under-nav li a{
-    color: white;
+    color: #EDF5E1;
     height: 25px;
 }
 

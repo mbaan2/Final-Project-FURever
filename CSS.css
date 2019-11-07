@@ -180,11 +180,94 @@ nav ul li a:hover:not(.active){
 
 
 
-main {
-    background-color: #EDF5E1;
-    float: left;
-    width: 100%;
+/* Home Page */
+
+.main {
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
 }
+
+.main h2 {
+    text-align: center;
+    margin: 0;
+    color: #345349;
+}
+
+.main2 h2 {
+    text-align: center;
+    margin: 0;
+    color: #345349;
+}
+
+.main p{
+    padding: 2% 15% 5% 15%;
+    text-align: justify;
+    line-height: 2;
+}
+
+.main2{
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.main2 p{
+    padding: 2% 15% 2% 15%;
+    text-align: justify;
+    line-height: 2;
+}
+
+.header1{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.header2{
+    float: right;
+    margin-right: 20%;  
+}
+
+.mainpic{
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+}
+
+.dog1{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-bottom: 2%;
+}
+
+.lonelyimg{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.dogwalking{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.locationpic{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+
+/* End of Home Page */
+
+
+
+
+
 
 article {
     background: #D7E7E7;

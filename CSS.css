@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #EDF5E1;
 }
 
 nav {
@@ -94,13 +93,24 @@ nav ul li a:hover:not(.active){
 .change-website{
     font-size: 20px;
 }
-
 /* Navbar based on examples on https://www.w3schools.com/css/css_navbar.asp */
 
 
 
 
+
+
+
+
+
+
 main {
+    background-color: #EDF5E1;
+    margin: 0px;
+    overflow: hidden;
+}
+
+article {
     background: #D7E7E7;
     margin: 40px 10%;
     border-radius: 25px;
@@ -117,6 +127,18 @@ h1 {
     margin: 0;
     color: #345349;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {

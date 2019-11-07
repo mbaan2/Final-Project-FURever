@@ -131,11 +131,171 @@ h1 {
 
 
 
+/* FAQ PAGE */
+
+.title-page{
+    background: #D7E7E7;
+    border-radius: 25px;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.faq-box{
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.faq-question{
+    height: 100px;
+}
+
+.faq-question-q{
+    width: 15%;
+    float: left;
+}
+.faq-question-q h2{
+    color: #345349;
+    font-size: 50px;
+    margin: 20px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+/* Vetical-align doesn't work because of fix height. Have to double check this.*/
+
+.faq-question-text{
+    width: 85%;
+    float: left;
+}
+
+.faq-question-text h3{
+    color: #345349;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+/* Vetical-align doesn't work because of fix height. Have to double check this.*/
+
+.faq-answer{
+    height: 100px;
+}
+
+.faq-answer-a{
+    width: 15%;
+    float: left;
+}
+
+.faq-answer-a h2{
+    color: #345349;
+    font-size: 50px;
+    margin: 20px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.faq-answer-text{
+    width: 85%;
+    float: left;
+}
+
+.faq-answer-text h3{
+    color: #345349;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+
+.faq-contact{
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
+    overflow: auto;
+    text-align: center;
+}
+
+.faq-contact h2{
+    color: #345349;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.faq-contact form {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.faq-contact form p{
+    color:#345349;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.faq-contact form input[type=text]{
+    width: 40%;
+    border: 1px solid #345349;
+    border-radius: 3px;
+}
+
+.faq-contact form input[type=email]{
+    width: 40%;
+    border: 1px solid #345349;
+    border-radius: 3px;
+}
+
+.faq-contact form textarea {
+    width: 70%;
+    border: 1px solid #345349;
+    border-radius: 3px;
+    height: 200px;
+}
+
+.faq-contact form input[type=submit]{
+    background-color: #345349;
+    width: 40%;
+    color: #EDF5E1;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* More styling av the submitt button? */
+
+
+.faq-contact form input[type=submit]:hover{
+    opacity: 0.9;
+}
+
+::placeholder{
+    text-align: center;
+    color: #345349;
+    padding: 0;
+}
+
+:-ms-input-placeholder{
+    text-align: center;
+    color: #345349;
+    padding: 0;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+    color: #345349;
+    padding: 0;
+}
 
 
 
 
+.faq-contact form input[type=submit] :hover{
+    background-color: black;
+}
 
+/* https://www.w3schools.com/css/css_form.asp
+is used as insperation */
 
 
 

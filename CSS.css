@@ -25,7 +25,8 @@ nav div {
 }
 
 nav div img {
-    height: 100px;
+    height: 145px;
+    margin-top: -10px;
 }
 
 .top-nav {
@@ -124,36 +125,76 @@ footer {
     width: 100%;
 }
 
-.sitemap {
+.footer-slogan{
+    height: auto;
+    background-color: #345349;
+    width: 100%;
+    float: left;
+    color: #EDF5E1;
+    text-align: center;
+    border-bottom: 1px solid #EDF5E1;
+}
+
+.footer-slogan h2{
+    font-size: 30px;
+}
+
+
+.footer-logo{
     height: 200px;
-    background-color: white;
-    color: #345349;
-    width: calc(100% /3);
-    float: left;
-    text-align: center;
-}
-
-footer div a {
-    text-decoration: none;
-    color: #345349;
-}
-
-.contact-us {
+    background-color: #345349;
     width: 50%;
-    height: 150px;
-    background-color: white;
     float: left;
+    color: #EDF5E1;
     text-align: center;
-    color: #345349;
+    border-bottom: 1px solid #EDF5E1;
+
 }
 
-.follow-us {
+.footer-logo img{
+    height: 225px;
+    margin-top: -10px;
+}
+
+.footer-sitemap{
+    height: calc(200px);
+    background-color: #345349;
     width: 50%;
-    height: 150px;
-    background-color: white;
+    float: left;
+    color: #EDF5E1;
+    text-align: center;
+    border-bottom: 1px solid #EDF5E1;
+
+}
+
+.footer-sitemap h2{
+    margin-top: 25px;
+}
+
+
+.footer-contact{
+    height: calc(200px - 30px);
+    padding-top: 30px;
+    background-color: #345349;
+    color: #EDF5E1;
+    width: calc(100% /2);
     float: left;
     text-align: center;
-    color: #345349;
+}
+
+.footer-contact p {
+    text-decoration: underline;
+   
+}
+
+.footer-download{
+    height: calc(200px - 30px);
+    padding-top: 30px;
+    background-color: #345349;
+    color: #EDF5E1;
+    width: calc(100% /2);
+    float: left;
+    text-align: center;
 }
 
 

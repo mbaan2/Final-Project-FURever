@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: "Calibri", sans-serif;
 }
 
 nav {
@@ -24,7 +25,7 @@ nav {
 }
 
 nav div img {
-    height: 125px;
+    height: 100px;
 }
 
 .nav-main{
@@ -99,18 +100,19 @@ nav ul li a:hover:not(.active){
     display: none;
     position: absolute;
     background-color: #D7E7E7;
-    color: #345349;
     z-index: 1;
     width: 100%;
     border: 2px solid #345349;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .textsize-dropdown-textsizes a{
-    color: black;
     text-decoration: none;
     display: block;
     height: 40px;
     padding-top: 15px;
+    color: #345349;
 }
 
 .textsize-dropdown:hover .textsize-dropdown-textsizes{
@@ -126,7 +128,7 @@ nav ul li a:hover:not(.active){
 }
 
 .textsize-large {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 
@@ -169,13 +171,7 @@ nav ul li a:hover:not(.active){
 
 
 
-main {
-    background-color: #EDF5E1;
-    overflow: visible;
-    width: 100%;
-    float: left;
-    
-}
+
 
 
 
@@ -265,8 +261,13 @@ main {
 
 
 
-
-
+main {
+    background-color: #EDF5E1;
+    overflow: visible;
+    width: 100%;
+    float: left;
+    
+}
 
 article {
     background: #D7E7E7;
@@ -338,7 +339,8 @@ h1 {
 /* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
 .faq-answer{
-    height: 100px;
+    width: 100%;
+    height: 150px;
 }
 
 .faq-answer-a{
@@ -363,7 +365,7 @@ h1 {
     color: #345349;
     font-size: 20px;
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0;
     vertical-align: middle;
 }
 
@@ -407,7 +409,7 @@ h1 {
 }
 
 .faq-contact form textarea {
-    width: 70%;
+    width: 40%;
     border: 1px solid #345349;
     border-radius: 3px;
     height: 200px;

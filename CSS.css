@@ -15,7 +15,7 @@ nav {
 
 
 .logo {
-    width: 20%;
+    width: 25%;
     height: 125px;
     float: left;
     background-color: #345349;
@@ -25,7 +25,7 @@ nav {
 }
 
 nav div img {
-    height: 100px;
+    height: 130px;
 }
 
 .nav-main{
@@ -124,7 +124,12 @@ nav ul li a:hover:not(.active){
     font-size: 10px;
 }
 
-.textsize-normall {
+.textsize-medium {
+}
+
+.textsize-medium:active{
+    background-color: #345349;
+    color: #EDF5E1;
 }
 
 .textsize-large {
@@ -134,7 +139,7 @@ nav ul li a:hover:not(.active){
 
 
 .language {
-    width: 20%;
+    width: 15%;
     float: left;
     background-color: #345349;
     height: 130px;
@@ -250,10 +255,11 @@ nav ul li a:hover:not(.active){
     margin-bottom: 2%;
 }
 
-.locationpic{
-    width: 50%;
-    height: auto;
-    margin-left: 25%;
+.maps-locations{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    border: none;
 }
 
 
@@ -308,7 +314,7 @@ h1 {
 
 .faq-question{
     height: 100px;
-    border-bottom: 1px solid #345349;
+    border-bottom: 2px solid #345349;
 }
 
 .faq-question-q{
@@ -318,7 +324,7 @@ h1 {
 .faq-question-q h2{
     color: #345349;
     font-size: 50px;
-    margin: 20px 0;
+    margin: 15px 0;
     vertical-align: middle;
     text-align: center;
 }
@@ -333,19 +339,19 @@ h1 {
     color: #345349;
     font-size: 30px;
     text-align: center;
-    margin: 30px 0;
+    margin: 25px 0;
     vertical-align: middle;
 }
 /* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
 .faq-answer{
     width: 100%;
-    height: 150px;
+    height: 100px;
 }
 
 .faq-answer-a{
     width: 15%;
-    float: left;
+    float:left;
 }
 
 .faq-answer-a h2{
@@ -495,8 +501,7 @@ footer {
 }
 
 .footer-logo img{
-    height: 225px;
-    margin-top: -10px;
+    height: 200px;
 }
 
 .footer-sitemap{

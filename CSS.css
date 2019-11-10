@@ -279,7 +279,6 @@ article {
     background: #D7E7E7;
     margin: 40px 10%;
     border-radius: 25px;
-
 }
 
 /*NOG NAAR KIJKEN!!!
@@ -464,6 +463,32 @@ h1 {
 /* https://www.w3schools.com/css/css_form.asp
 is used as insperation */
 
+/*Preview page*/
+
+.article-box{
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+.column2 img {
+    width: 50%;
+}
+.column2-img {
+    text-align: center;
+    margin-top: 5%;
+}
+.column2-text p {
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+}
+
 
 
 
@@ -515,7 +540,8 @@ footer {
 
 }
 
-.footer-sitemap h2{
+.footer-sitemap h2 a{
+    color: #EDF5E1;
     margin-top: 25px;
 }
 

@@ -203,7 +203,7 @@ nav ul li a:hover:not(.active){
 .main p{
     padding: 2% 15% 5% 15%;
     text-align: justify;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .main2{
@@ -216,7 +216,30 @@ nav ul li a:hover:not(.active){
 .main2 p{
     padding: 2% 15% 2% 15%;
     text-align: justify;
-    line-height: 2;
+    line-height: 1.5;
+}
+
+.main3{
+    background: #D7E7E7;
+    margin: 40px 10%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.main3 p{
+    padding: 2% 15% 5% 15%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.main3 h2{
+    text-align: center;
+    margin: 0;
+    color: #345349;
+}
+
+.discountslink{
+    color: #345349;
 }
 
 .header1{
@@ -227,6 +250,14 @@ nav ul li a:hover:not(.active){
 .header2{
     float: right;
     margin-right: 20%;  
+}
+
+.survey{
+    overflow: hidden;
+}
+
+.survey h2{
+    float: left;    
 }
 
 .mainpic{
@@ -243,9 +274,9 @@ nav ul li a:hover:not(.active){
 }
 
 .lonelyimg{
-    width: 70%;
+    width: 50%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 .dogwalking{
@@ -253,6 +284,17 @@ nav ul li a:hover:not(.active){
     height: auto;
     float: left;
     margin-bottom: 2%;
+}
+
+.discounts1{
+    width: 50%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.discountsimg{
+    width: 50%;
+    margin-left: 25%;
 }
 
 .maps-locations{

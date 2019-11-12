@@ -182,64 +182,42 @@ nav ul li a:hover:not(.active){
 
 /* Home Page */
 
-.main {
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px; 
+main {
+    background-color: #EDF5E1;
+    overflow: visible;
+    width: 100%;
+    float: left;
+    
 }
 
-.main h2 {
-    text-align: center;
-    margin: 0;
-    color: #345349;
-}
-
-.main2 h2 {
-    text-align: center;
-    margin: 0;
-    color: #345349;
-}
-
-.main p{
-    padding: 2% 15% 5% 15%;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.main2{
+article {
     background: #D7E7E7;
     margin: 40px 10%;
     border-radius: 25px;
-    overflow: hidden;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+}
+/* text-align: justify;*/
+
+/*NOG NAAR KIJKEN!!!
+https://css-tricks.com/body-border-rounded-inside/*/
+
+a {
+    color: #345349;
 }
 
-.main2 p{
-    padding: 2% 15% 2% 15%;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.main3{
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.main3 p{
-    padding: 2% 15% 5% 15%;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.main3 h2{
+article h1 {
+    font-size: 50px;
     text-align: center;
     margin: 0;
     color: #345349;
 }
 
-.discountslink{
-    color: #345349;
+article h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    color: #345349; 
 }
 
 .header1{
@@ -304,35 +282,7 @@ nav ul li a:hover:not(.active){
     border: none;
 }
 
-
-/* End of Home Page */
-
-
-
-main {
-    background-color: #EDF5E1;
-    overflow: visible;
-    width: 100%;
-    float: left;
-    
-}
-
-article {
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px;
-}
-
-/*NOG NAAR KIJKEN!!!
-https://css-tricks.com/body-border-rounded-inside/*/
-
-
-h1 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0;
-    color: #345349;
-}
+/* End homepage */
 
 
 

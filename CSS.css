@@ -196,6 +196,7 @@ article {
     border-radius: 25px;
     padding: 10px 30px 25px 30px;
     text-align: center;
+    line-height: 1.5;
 }
 /* text-align: justify;*/
 
@@ -258,18 +259,32 @@ article h2 {
     font-weight: normal;
 }
 
-
-
-
-
-.header1{
-    display: inline-block;
-    margin-left: 20%;
+.intro{
+    text-align: justify;
 }
 
-.header2{
-    float: right;
-    margin-right: 20%;  
+.intro p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.problem{
+    text-align: justify;
+}
+
+.problem p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.solution{
+    text-align: justify;
+    overflow: hidden;
+}
+
+.solution p{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .survey{
@@ -280,24 +295,18 @@ article h2 {
     float: left;    
 }
 
-.dog1{
-    width: 50%;
-    height: auto;
-    float: right;
-    margin-bottom: 2%;
-}
-
 .lonelyimg{
-    width: 50%;
+    width: 70%;
     height: auto;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .dogwalking{
-    width: 50%;
+    width: 60%;
     height: auto;
-    float: left;
-    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: right;
 }
 
 .discounts1{

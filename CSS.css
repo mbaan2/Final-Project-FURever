@@ -221,8 +221,9 @@ article h2 {
 }
 
 .mainpic{
-    width: 70%;
+    width: 85%;
     height: auto;
+    padding-bottom: 35px;
 }
 
 .preview-element{

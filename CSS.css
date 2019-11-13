@@ -194,7 +194,7 @@ article {
     background: #D7E7E7;
     margin: 40px 10%;
     border-radius: 25px;
-    padding: 10px 10px 25px 10px;
+    padding: 10px 30px 25px 30px;
     text-align: center;
 }
 /* text-align: justify;*/
@@ -207,7 +207,7 @@ a {
 }
 
 article h1 {
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     margin: 0;
     color: #345349;
@@ -219,6 +219,47 @@ article h2 {
     margin: 0;
     color: #345349; 
 }
+
+.mainpic{
+    width: 70%;
+    height: auto;
+}
+
+.preview-element{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.preview-element-last{
+    width: 100%;
+    margin: 0;
+}
+
+.preview-element-last h3{
+    font-size: 25px;
+    margin: 20px 0 0 0;
+    color: #345349;
+}
+
+.preview-element h3{
+    font-size: 25px;
+    margin: 20px 0 0 0;
+    color: #345349;
+}
+
+.preview-quote{
+    width: 100%;
+}
+
+.preview-quote h4{
+    font-style: italic;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+
+
+
 
 .header1{
     display: inline-block;
@@ -236,12 +277,6 @@ article h2 {
 
 .survey h2{
     float: left;    
-}
-
-.mainpic{
-    margin-left: 15%;
-    width: 70%;
-    height: auto;
 }
 
 .dog1{
@@ -272,14 +307,13 @@ article h2 {
 
 .discountsimg{
     width: 50%;
-    margin-left: 25%;
 }
 
 .maps-locations{
-    width: 80%;
+    width: 100%;
     height: 500px;
-    margin-left: 10%;
-    border: none;
+    border: 3px solid #345349;
+    border-radius: 20px;
 }
 
 /* End homepage */
@@ -483,7 +517,7 @@ is used as insperation */
 
 
 
-
+/* footer */
 
 footer {
     padding: 0px;
@@ -502,7 +536,8 @@ footer {
 }
 
 .footer-slogan h2{
-    font-size: 30px;
+    font-size: 35px;
+    margin: 15px 0;
 }
 
 
@@ -522,19 +557,20 @@ footer {
 }
 
 .footer-sitemap{
-    height: calc(200px);
+    height: calc(200px - 50px);
     background-color: #345349;
-    width: 50%;
+    width: calc(50% - 50px);
     float: left;
     color: #EDF5E1;
     text-align: center;
     border-bottom: 1px solid #EDF5E1;
-
+    padding: 25px;
 }
 
 .footer-sitemap h2 a{
     color: #EDF5E1;
-    margin-top: 25px;
+    font-size: 40px;
+    text-decoration: none;
 }
 
 
@@ -546,6 +582,10 @@ footer {
     width: calc(100% /2);
     float: left;
     text-align: center;
+}
+
+.footer-contact h2{
+    margin: 0;
 }
 
 .footer-contact p {
@@ -561,6 +601,10 @@ footer {
     width: calc(100% /2);
     float: left;
     text-align: center;
+}
+
+.footer-download h2{
+    margin: 0;
 }
 
 

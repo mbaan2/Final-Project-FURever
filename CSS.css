@@ -338,8 +338,9 @@ article h2 {
 }
 
 .faq-question{
-    height: 100px;
+    min-height: 100px;
     border-bottom: 2px solid #345349;
+    overflow: auto;
 }
 
 .faq-question-q{
@@ -366,6 +367,7 @@ article h2 {
     text-align: center;
     margin: 25px 0;
     vertical-align: middle;
+    padding-left: 5px;
 }
 /* Vetical-align doesn't work because of fix height. Have to double check this.*/
 

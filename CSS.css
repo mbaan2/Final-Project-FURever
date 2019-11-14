@@ -318,6 +318,12 @@ article h2 {
     float: left;    
 }
 
+.feedbackpic{
+    width: 50%;
+}
+
+
+
 .lonelyimg{
     width: 70%;
     height: auto;

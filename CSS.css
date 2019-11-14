@@ -4,7 +4,7 @@ body{
     font-family: "Calibri", sans-serif;
 }
 
-nav {
+.nav-desktop {
     margin: 0px;
     padding: 0px;
     position: sticky;
@@ -172,6 +172,29 @@ nav ul li a:hover:not(.active){
     opacity: 0.4;
 }
 
+.nav-phone{
+    display: none;
+}
+.logo-phone{
+    display: none;
+}
+
+.nav-main-phone{
+    display: none;
+}
+
+.language-phone{
+    display: none;
+}
+
+.flag-uk-phone{
+    display: none;    
+}
+
+.flag-norway-phone{
+    display: none;
+}
+
 /* Navbar based on examples on https://www.w3schools.com/css/css_navbar.asp */
 
 
@@ -320,10 +343,9 @@ article h2 {
 }
 
 .maps-locations{
-    width: 100%;
+    width: 90%;
     height: 500px;
-    border: 3px solid #345349;
-    border-radius: 20px;
+    border: none;
 }
 
 /* End homepage */
@@ -618,5 +640,175 @@ footer {
 .footer-download h2{
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone version */
+
+@media screen and (max-width: 650px){
+    .nav-desktop{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-main{
+        display: none;
+    }
+    .under-nav{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .nav-phone{
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        width: 100%;
+        display: block;
+    }
+    
+    .logo-phone{
+        width: calc(100% / 3);
+        height: 85px;
+        background-color: #345349;
+        float: left;
+        text-align: center;
+        display: block;
+    }
+    
+    .logo-phone a img{
+        height: 90%;
+        width: auto;
+    }
+    
+    .nav-main-phone{
+        width: calc(100% / 3);
+        float: left;
+        height: 85px;
+        float: left;
+        background-color: #345349;
+        text-align: center;
+        display: block;
+    }
+    
+    .nav-main-phone img{
+        height: 100%;
+        width: auto;
+        color: #EDF5E1;
+        filter: invert(93%) sepia(4%) saturate(798%) hue-rotate(46deg) brightness(106%) contrast(92%);
+        /*research if filter is accepted everywhere*/
+    }
+    
+    .language-phone{
+        height: 85px;
+        width: calc(100% / 3);
+        float: left;
+        background-color: #345349;
+        text-align: center;
+        display: block;
+    }
+    
+    .language-phone a{
+        text-decoration: none;
+    }
+    
+    .flag-uk-phone{
+        height: 30px;
+        width: 50px;
+        padding: 7px;
+        display: inline;
+    }
+    
+    .flag-norway-phone{
+        height: 30px;
+        width: 50px;
+        display: inline;
+    }
+    
+    
+    
+    
+    
+    
+    /*Main */
+    
+    main{
+        margin-top: 85px;
+    }
+
+    article{
+    margin: 30px 4%;
+    border-radius: 25px;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+    line-height: 1.5;
+    }
+    
+
+    
+    
+    
+    /* Footer */
+    
+    .footer-slogan h2{
+        font-size: 30px;
+    }
+    
+    .footer-logo{
+        height: 120px;
+    }
+    
+    .footer-sitemap{
+        height: calc(120px - 20px);
+        width: calc(50% - 20px);
+        padding: 10px
+    }
+    
+    .footer-sitemap h2{
+        margin: 15px 0;
+    }
+    .footer-sitemap h2 a{
+        font-size: 25px;
+    }
+    .footer-logo img{
+        height: 100%;
+        width: auto;
+    }
+    
+    .footer-contact{
+        padding-top: 15px;
+    }
+    
+    .footer-contact h2{
+        font-size: 25px
+    }
+    
+    .footer-download{
+        padding-top: 15px;
+    }
+    
+    .footer-download h2 {
+        font-size: 25px;
+        
+    }
+    
+}
+
+
+
 
 

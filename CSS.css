@@ -542,6 +542,7 @@ is used as insperation */
     float: left;
     width: 50%;
     height: 560px;
+    overflow: hidden;
 }
 .column2 img {
     width: 50%;

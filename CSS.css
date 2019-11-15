@@ -723,8 +723,6 @@ footer {
         height: 100%;
         width: auto;
         color: #EDF5E1;
-        filter: invert(93%) sepia(4%) saturate(798%) hue-rotate(46deg) brightness(106%) contrast(92%);
-        /*research if filter is accepted everywhere*/
     }
     
     .language-phone{

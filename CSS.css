@@ -290,6 +290,7 @@ article h2 {
 .problem p{
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
 }
 
 .solution{
@@ -311,22 +312,21 @@ article h2 {
 }
 
 .feedbackpic{
-    width: 50%;
+    width: 70%;
 }
 
 
 
 .lonelyimg{
-    width: 70%;
+    width: 90%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .dogwalking{
     width: 60%;
     height: auto;
     margin-left: 5%;
-    margin-bottom: 5%;
     float: right;
 }
 
@@ -762,8 +762,21 @@ footer {
     line-height: 1.5;
     }
     
-
+    .article-box{
+    margin: 30px 4%;
+    border-radius: 25px;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+    line-height: 1.5;
+    }
     
+    .dogwalking{
+        width: 70%; 
+        float: none;
+        margin-left: 15%;
+
+    }
+
     
     
     /* Footer */

@@ -128,8 +128,6 @@ nav ul li a:hover:not(.active){
 }
 
 .textsize-medium:active{
-    background-color: #345349;
-    color: #EDF5E1;
 }
 
 .textsize-large {

@@ -46,16 +46,11 @@ nav div img {
 
 }
 
-nav ul {
-    margin: 0px;
-}
 
-nav ul li {
-    float: left;
-    width: calc(100% / 2);
-}
 
-nav ul li a {
+.top-nav-text {
+	float: left;
+    width: calc(50% - 50px);
     display: block;
     color: #EDF5E1;
     text-align: center;
@@ -65,12 +60,12 @@ nav ul li a {
     height: 40px;
 }
 
-nav ul li a:hover:not(.active){
+.top-nav-text:hover:not(.active){
     transition: 0.4s;
     text-decoration: underline;
 }
 
-.active {
+#active {
     text-decoration:underline;
 }
 

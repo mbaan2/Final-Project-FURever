@@ -9,17 +9,17 @@
 <body>
 
     
-<nav class="nav-desktop">
+<nav class="nav-desktop" tabindex="0">
     <div class="logo">
-        <a href="index.html" tabindex="0">        
-			<img src="logo1.png" alt="Logo FURever">
+        <a href="index.html" tabindex="0" aria-label="Logo that links to homepage">        
+			<img src="logo1.png" alt="Logo FURever link to homepage">
 		</a>
     </div>
     <div class="nav-main">
-        <ul class="top-nav">
-        	<li><a href="index.html" tabindex="0">Home</a></li>
-        	<li><a class="active" href="FAQ.html" tabindex="0">FAQ</a></li>
-        </ul>
+        <div class="top-nav">
+			<a class="top-nav-text" href="index.html" tabindex="0" aria-label="Link to home">Home</a>
+        	<a class="top-nav-text" id="active" href="FAQ.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
+        </div>
     <div class="under-nav">
         <div class="textsize-dropdown">
             <button tabindex=0>
@@ -36,11 +36,11 @@
     <div class="language">
         <div>
         <a class="lang-active" href="#" tabindex="0">
-        	<img class="flag-uk" src="uk.png" alt="Flag of..">
+        	<img class="flag-uk" src="uk.png" alt="Changes the text to English">
         </a>
         <br>
         <a href="#" tabindex="0">
-			<img class="flag-norway" src="norway.png" alt="Flag of..">
+			<img class="flag-norway" src="norway.png" alt="Changes the text to Norwegian">
         </a>
         </div>
     </div>
@@ -165,25 +165,25 @@ Flag images: https://pixabay.com/images/search/uk%20flag/
     
 <footer>
     <div class="footer-slogan">
-        <h2 tabindex="0"> Let the dogs out and the happiness in!</h2>  
+        <h2 tabindex="0" aria-label="Our slogan: Let the dogs out and the happiness in!"> Let the dogs out and the happiness in!</h2>  
     </div>
     
     <div class="footer-logo">
-        <img src="logo1.png" alt="Logo FURever" tabindex="0">
+        <img src="logo1.png" alt="Logo FUR ever" tabindex="0">
     </div>
     <div class="footer-sitemap">
         <h2>
-			<a href="index.html" tabindex="0">Home</a>
+			<a href="index.html" tabindex="0" aria-label="Link to home">Home</a>
 		</h2>
         <h2>
-			<a href="FAQ.html" tabindex="0">FAQ</a>
+			<a href="FAQ.html" tabindex="0" aria-label="Link to Frequently asked questions">FAQ</a>
 		</h2>
     </div>
     
     <div class="footer-contact">
-        <h2 tabindex="0">Contact us:</h2>
-        <p tabindex="0">notvalid@company.com</p>
-        <p tabindex="0">+4712345678</p>
+        <h2 tabindex="0" aria-label="Contact information">Contact us:</h2>
+        <p tabindex="0" aria-label="Email adress is notvalid@company.com">notvalid@company.com</p>
+        <p tabindex="0" aria-label="Our phonenumber is 004712345678">+4712345678</p>
          <!--Email and phone number has to be activated -->
     </div>    
     <div class="footer-download">

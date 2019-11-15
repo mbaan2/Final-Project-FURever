@@ -541,17 +541,24 @@ is used as insperation */
 .column2 {
     float: left;
     width: 50%;
+    height: 560px;
 }
 .column2 img {
     width: 50%;
 }
 .column2-img {
     text-align: center;
-    margin-top: 5%;
+}
+.column2-text h2 {
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
 }
 .column2-text p {
     text-align: center;
     margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 5%;
     width: 80%;
 }
 

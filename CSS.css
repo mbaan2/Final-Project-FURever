@@ -335,8 +335,8 @@ article h2 {
 
 .feedbackpic{
     width: 70%;
+    margin-top: 2%;
 }
-
 
 
 .lonelyimg{
@@ -349,6 +349,7 @@ article h2 {
     width: 60%;
     height: auto;
     margin-left: 5%;
+    margin-bottom: 2%;
     float: right;
 }
 

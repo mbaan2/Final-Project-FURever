@@ -489,10 +489,14 @@ article h2 {
     overflow: auto;
 }
 
+.row {
+    display: flex;
+}
+
 .column2 {
+    flex: 1;
     float: left;
     width: 50%;
-    height: 600px;
 }
 .column2 img {
     width: 50%;

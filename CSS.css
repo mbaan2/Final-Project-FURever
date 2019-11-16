@@ -58,7 +58,7 @@ nav div img {
 
 .top-nav {
     width: 100%;
-    height: 80px;
+    height: 70px;
     list-style-type: none;
     float: left;
     text-align: center;
@@ -96,8 +96,14 @@ nav div img {
     background-color: #345349;
     float: left;
     width: 100%;
-    height: 50px;
+    height: 60px;
     color: #EDF5E1;
+}
+
+.textsize {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
 }
 
 .textsize a {
@@ -121,13 +127,13 @@ nav div img {
     font-size: 200%;
 }
 
-main#text-small {
+#text-small {
     font-size: 100%;
 }
-main#text-medium {
+#text-medium {
     font-size: 150%;
 }
-main#text-large {
+#text-large {
     font-size: 200%;
 }
 
@@ -452,7 +458,6 @@ article h2 {
 
 .faq-answer-text h3{
     color: #345349;
-    font-size: 20px;
     text-align: center;
     margin: 30px 0;
     vertical-align: middle;
@@ -475,7 +480,6 @@ article h2 {
 
 .faq-contact p {
     color: #345349;
-    font-size: 20px;
     text-align: center;
 }
 
@@ -569,6 +573,10 @@ footer {
     padding: 25px;
 }
 
+.footer-sitemap h2 {
+    margin: 20px;
+}
+
 .footer-sitemap h2 a{
     color: #EDF5E1;
     font-size: 40px;
@@ -592,6 +600,7 @@ footer {
 
 .footer-contact p {
     text-decoration: underline;
+    margin: 10px;
    
 }
 

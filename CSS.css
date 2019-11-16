@@ -4,6 +4,28 @@ body{
     font-family: "Calibri", sans-serif;
 }
 
+/* Skip tab menu */
+.skip-tab{
+	top: -50px;
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+	text-decoration: none;
+	text-align: center;
+}
+
+.skip-tab:focus{
+	background-color: #345349;
+	color: #EDF5E1;
+	font-size: 50px;
+	overflow: auto;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	z-index: 999;
+}
+
 .nav-desktop {
     margin: 0px;
     padding: 0px;
@@ -352,6 +374,30 @@ article h2 {
 
 
 /* FAQ PAGE */
+
+.skip-tab-faq-box{
+	height: auto;
+	margin: 0 10%;
+	position: relative;
+	text-align: left;
+	background-color: #EDF5E1;
+}
+
+
+.skip-tab-faq{
+	z-index: -1;
+	top: -220px;
+	position: absolute;
+	font-size 300px;
+}
+
+.skip-tab-faq:focus {
+	top: 0px;
+	position: absolute;
+	z-index: 1;
+	font-size: 20px;
+}
+
 
 .title-page{
     background: #D7E7E7;

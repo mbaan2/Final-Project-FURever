@@ -8,8 +8,11 @@
 </head>
 <body>
 
-    
-<nav class="nav-desktop" tabindex="0">
+	
+<a class="skip-tab" href="#main" tabindex="0">Skip to main</a>
+<a class="skip-tab" href="#contact-us" 	tabindex="0">Skip to contact us</a>
+	
+<nav class="nav-desktop">
     <div class="logo">
         <a href="index.html" tabindex="0" aria-label="Logo that links to homepage">        
 			<img src="logo1.png" alt="Logo FURever link to homepage">
@@ -76,7 +79,17 @@ Flag images: https://pixabay.com/images/search/uk%20flag/
 	
 	
 
-<main> 
+<main>
+	<div class="skip-tab-faq-box">
+		<a class="skip-tab-faq" id="main" href="#" tabindex="0">Can you walk/reserve your favourite dog?</a>
+			<br>
+		<a class="skip-tab-faq" href="#" tabindex="0">How do I start?</a>
+			<br>
+		<a class="skip-tab-faq" href="#" tabindex="0">What kind of dogs can i walk with?</a>
+		<a class="skip-tab-faq" href="#" tabindex="0">Contact us</a>
+	</div>
+
+	
     <article  class="title-page">
         <h1 class="title-page">
         Frequently asked Questions (FAQ)
@@ -145,7 +158,7 @@ Flag images: https://pixabay.com/images/search/uk%20flag/
     </article>
 
     <article class="faq-contact">
-        <h2>Leave your questions and comments here!</h2>
+        <h2 id="contact-us">Leave your questions and comments here!</h2>
         <form action="" method="POST">
             <p>Name</p>
             <input type="text" name="Name" placeholder="Type your name here">

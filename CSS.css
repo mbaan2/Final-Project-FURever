@@ -482,7 +482,19 @@ article h2 {
 }
 
 
-/*Preview page*/
+/*Preview part*/
+/*
+Sources:
+phone mockups:
+http://emske.com/samsung-galaxy-s6-psd-mock-up/
+
+icons:
+https://www.flaticon.com/authors/freepik
+https://www.flaticon.com/authors/smashicons
+
+dogs:
+https://unsplash.com/s/photos/dog
+*/
 
 .article-box{
     background: #D7E7E7;
@@ -599,7 +611,10 @@ footer {
 .footer-contact p {
     text-decoration: underline;
     margin: 10px;
-   
+}
+
+.footer-contact a {
+    color: #EDF5E1;
 }
 
 .footer-download{

@@ -282,6 +282,7 @@ article h2 {
 }
 
 .intro{
+    text-align: justify;
 }
 
 .intro p{
@@ -290,6 +291,7 @@ article h2 {
 }
 
 .problem{
+    text-align: justify;
 }
 
 .problem p{
@@ -300,6 +302,7 @@ article h2 {
 
 .solution{
     overflow: hidden;
+    text-align: justify;
 }
 
 .solution p{
@@ -764,7 +767,18 @@ footer {
     .column2 {
         width: 100%;
     }
+    
+    .intro{
+        text-align: center;
+    }
+    
+    .problem{
+        text-align: center;
+    }
 
+    .solution{
+        text-align: center;
+    }
 
     
     

@@ -282,7 +282,6 @@ article h2 {
 }
 
 .intro{
-    text-align: justify;
 }
 
 .intro p{
@@ -291,7 +290,6 @@ article h2 {
 }
 
 .problem{
-    text-align: justify;
 }
 
 .problem p{
@@ -301,7 +299,6 @@ article h2 {
 }
 
 .solution{
-    text-align: justify;
     overflow: hidden;
 }
 
@@ -321,6 +318,7 @@ article h2 {
 .feedbackpic{
     width: 100%;
 	height: auto;
+    margin: 0;
 }
 
 
@@ -777,11 +775,11 @@ footer {
     }
     
     .footer-logo{
-        height: 120px;
+        height: 170px;
     }
     
     .footer-sitemap{
-        height: calc(120px - 20px);
+        height: calc(170px - 20px);
         width: calc(50% - 20px);
         padding: 10px
     }

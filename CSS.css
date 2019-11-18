@@ -331,9 +331,9 @@ article h2 {
 }
 
 .dogwalking{
-    width: 60%;
+    width: 90%;
     height: auto;
-    margin-left: 20%;
+    margin-left: 5%;
 }
 
 .discounts1{
@@ -759,12 +759,6 @@ footer {
     line-height: 1.5;
     }
     
-    .dogwalking{
-        width: 70%; 
-        float: none;
-        margin-left: 15%;
-
-    }
 
     .row {
         display: block;

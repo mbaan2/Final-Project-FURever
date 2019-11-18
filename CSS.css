@@ -244,7 +244,7 @@ article h2 {
 }
 
 .mainpic{
-    width: 85%;
+    width: 90%;
     height: auto;
     padding-bottom: 35px;
 }
@@ -319,8 +319,8 @@ article h2 {
 }
 
 .feedbackpic{
-    width: 70%;
-    margin-top: 2%;
+    width: 100%;
+	height: auto;
 }
 
 

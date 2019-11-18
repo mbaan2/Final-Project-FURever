@@ -613,7 +613,10 @@ footer {
 .footer-contact p {
     text-decoration: underline;
     margin: 10px;
-   
+}
+
+.footer-contact a {
+    color: #EDF5E1;
 }
 
 .footer-download{

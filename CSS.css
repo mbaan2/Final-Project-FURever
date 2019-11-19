@@ -5,28 +5,6 @@ body{
 }
 
 
-/* Skip tab menu */
-.skip-tab{
-	top: -50px;
-	position: absolute;
-	overflow: hidden;
-	z-index: -1;
-	text-decoration: none;
-	text-align: center;
-}
-
-.skip-tab:focus{
-	background-color: #345349;
-	color: #EDF5E1;
-	font-size: 50px;
-	overflow: auto;
-	top: 0px;
-	position: absolute;
-	width: 100%;
-	height: 130px;
-	z-index: 999;
-}
-
 .nav-desktop {
     margin: 0px;
     padding: 0px;
@@ -167,7 +145,6 @@ nav div img {
 }
 
 .flag-norway{
-    padding-bottom: 8px;
     opacity: 0.4;
 }
 
@@ -223,13 +200,10 @@ article {
     margin: 40px 10%;
     border-radius: 25px;
     padding: 10px 30px 25px 30px;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
+	overflow: auto;
 }
-/* text-align: justify;*/
-
-/*NOG NAAR KIJKEN!!!
-https://css-tricks.com/body-border-rounded-inside/*/
 
 a {
     color: #345349;
@@ -250,7 +224,7 @@ article h2 {
 }
 
 .mainpic{
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -329,15 +303,13 @@ article h2 {
 
 
 .lonelyimg{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
 }
 
 .dogwalking{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
 }
 
 .discounts1{
@@ -351,20 +323,19 @@ article h2 {
 }
 
 .maps-locations{
-    width: 90%;
+    width: 100%;
     height: 500px;
     border: none;
 }
 
-.imageholder{
-    
-}
-
-.imageholder p{
+.image-referal{
     text-align: left;
-    font-size: 15px;
+    font-size: 11px;
     margin-top: -1%;
     color: #345349;
+	font-weight: bold;
+	font-style: italic;
+	
 }
 
 .imageholder2{
@@ -386,35 +357,40 @@ article h2 {
 
 /* FAQ PAGE */
 
-.skip-tab-faq-box{
+.skip-tab-box{
+	height: 0;
+	position: relative;
+	background-color: #EDF5E1;
+}
+
+
+.skip-tab{
+	z-index: -1;
+	top: -220px;
+	position: absolute;
+	text-decoration: none;
+}
+
+.skip-tab:focus {
+	top: 0px;
+	margin-left: 10%;
+	position: absolute;
+	z-index: 1;
+	background-color: #345349;
+	color: #EDF5E1;
+	font-size: 30px;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+.skip-tab:focus .skip-tab-box {
 	height: auto;
 	margin: 0 10%;
 	position: relative;
 	text-align: left;
 	background-color: #EDF5E1;
-}
-
-
-.skip-tab-faq{
-	z-index: -1;
-	top: -220px;
-	position: absolute;
-	font-size 300px;
-}
-
-.skip-tab-faq:focus {
-	top: 0px;
-	position: absolute;
-	z-index: 1;
-	font-size: 20px;
-}
-
-
-.title-page{
-    background: #D7E7E7;
-    border-radius: 25px;
-    font-size: 60px;
-    padding: 10px;
 }
 
 .faq-box{
@@ -488,25 +464,11 @@ article h2 {
     vertical-align: middle;
 }
 
-
-.faq-contact{
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px;
-    overflow: auto;
-    text-align: center;
-}
-
-.faq-contact h2{
-    color: #345349;
-    font-size: 40px;
-    margin: 20px 0;
-}
-
-.faq-contact p {
+.faq-contact-p {
     color: #345349;
     text-align: center;
 }
+
 
 
 /*Preview part*/
@@ -523,15 +485,10 @@ dogs:
 https://unsplash.com/s/photos/dog
 */
 
-.article-box{
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px;
-    overflow: auto;
-}
 
 .row {
     display: flex;
+	margin-bottom: 20px;
 }
 
 .column2 {
@@ -554,7 +511,6 @@ https://unsplash.com/s/photos/dog
     text-align: center;
     margin-left: 10%;
     margin-top: 0;
-    margin-bottom: 5%;
     width: 80%;
 }
 
@@ -807,7 +763,7 @@ footer {
     }
     
     .dogwalking{
-        margin-left: 0;
+		width: 100%;
     }
     
     .lonelyimg{

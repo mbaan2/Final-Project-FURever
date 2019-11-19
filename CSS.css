@@ -163,7 +163,7 @@ nav div img {
 .flag-uk {
     padding-top: 8px;
     padding-bottom: 8px;
-    opacity: 1;
+    opacity: 0.4;
 }
 
 .flag-norway{
@@ -187,11 +187,17 @@ nav div img {
 }
 
 .flag-uk-phone{
-    display: none;    
+    display: none;  
+    opacity: 0.4;
 }
 
 .flag-norway-phone{
     display: none;
+    opacity: 0.4;
+}
+
+.lang-active img{
+    opacity: 1;
 }
 
 /* Navbar based on examples on https://www.w3schools.com/css/css_navbar.asp */

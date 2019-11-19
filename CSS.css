@@ -203,6 +203,7 @@ article {
     padding: 10px 30px 25px 30px;
     text-align: justify;
     line-height: 1.5;
+	overflow: auto;
 }
 /* text-align: justify;*/
 
@@ -312,9 +313,8 @@ article h2 {
 }
 
 .dogwalking{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
 }
 
 .discounts1{
@@ -393,14 +393,6 @@ article h2 {
 	position: relative;
 	text-align: left;
 	background-color: #EDF5E1;
-}
-
-
-.title-page{
-    background: #D7E7E7;
-    border-radius: 25px;
-    font-size: 60px;
-    padding: 10px;
 }
 
 .faq-box{
@@ -509,12 +501,6 @@ dogs:
 https://unsplash.com/s/photos/dog
 */
 
-.article-box{
-    background: #D7E7E7;
-    margin: 40px 10%;
-    border-radius: 25px;
-    overflow: auto;
-}
 
 .row {
     display: flex;
@@ -793,7 +779,7 @@ footer {
     }
     
     .dogwalking{
-        margin-left: 0;
+		width: 100%;
     }
     
     .lonelyimg{

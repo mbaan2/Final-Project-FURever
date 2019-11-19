@@ -173,6 +173,40 @@ nav div img {
     opacity: 0.4;
 }
 
+
+.show-menu {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*Strip the ul of padding and list styling*/
+.hidden ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    display: none;
+}
+.hidden ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 25px;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]:checked ~ .hidden{
+    display: block;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 .lang-active img{
     opacity: 1;
 }
@@ -675,19 +709,44 @@ footer {
     
     .nav-main-phone{
         width: calc(100% / 3);
-        float: left;
         height: 85px;
         float: left;
         background-color: #345349;
         text-align: center;
         display: block;
     }
-    
-    .nav-main-phone img{
+
+    .show-menu {
+        display: block;
         height: 100%;
-        width: auto;
+    }
+    
+    .show-menu img{
+        width: calc(100% / 3);
+        height: 85px;
         color: #EDF5E1;
     }
+
+    .hidden {
+        height: 200px;
+        width: 100%;
+        background-color: #345349;
+    }
+
+    .hidden ul {
+        display: block;
+    }
+
+    .hidden a {
+        color: #EDF5E1;
+        font-size: 200%;
+        text-decoration: none;
+    }
+
+    li a {
+        text-align: center;
+    }
+
     
     .language-phone{
         height: 85px;

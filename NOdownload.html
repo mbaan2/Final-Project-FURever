@@ -45,11 +45,22 @@
             <img src="logo1.png" alt="Logo FURever">
 		</a>   
     </div>
-    <div class="nav-main-phone">
-        <a href="NOindex.html" tabindex="0">        
-            <img src="phone-menu.png" alt="Meny knapp FURever">
-			<!-- source https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg --> 
-        </a> 
+    <div class="nav-main-phone">  
+        <label for="show-menu" class="show-menu">
+            <img src="phone-menu.png" alt="Menu button FURever">
+        </label>
+            <input type="checkbox" id="show-menu" role="button">   
+            <!-- Source https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg --> 
+        <div class="hidden">
+            <ul>
+                <li>
+                    <a href="index.html" tabindex="0" aria-label="Link to home">Home</a>
+                </li>
+                <li>
+                    <a id="active" href="FAQ.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
+                </li>
+            </ul>    
+        </div>
     </div>
     
     <div class="language-phone">

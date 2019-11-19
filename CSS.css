@@ -302,11 +302,9 @@ article h2 {
 .problem p{
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 2%;
 }
 
 .solution{
-    overflow: hidden;
     text-align: justify;
 }
 

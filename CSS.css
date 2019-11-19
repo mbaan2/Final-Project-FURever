@@ -201,7 +201,7 @@ article {
     margin: 40px 10%;
     border-radius: 25px;
     padding: 10px 30px 25px 30px;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
 }
 /* text-align: justify;*/
@@ -307,9 +307,8 @@ article h2 {
 
 
 .lonelyimg{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
 }
 
 .dogwalking{
@@ -334,11 +333,7 @@ article h2 {
     border: none;
 }
 
-.imageholder{
-    
-}
-
-.imageholder p{
+.image-referal{
     text-align: left;
     font-size: 15px;
     margin-top: -1%;
@@ -368,7 +363,6 @@ article h2 {
 	height: 0;
 	position: relative;
 	background-color: #EDF5E1;
-	font-size: 30px;
 }
 
 
@@ -376,7 +370,6 @@ article h2 {
 	z-index: -1;
 	top: -220px;
 	position: absolute;
-	font-size: 30px;
 	text-decoration: none;
 }
 
@@ -387,7 +380,7 @@ article h2 {
 	z-index: 1;
 	background-color: #345349;
 	color: #EDF5E1;
-	font-size: 20px;
+	font-size: 30px;
 	margin: 0;
 	width: 100%;
 	text-align: center;

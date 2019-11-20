@@ -235,7 +235,7 @@ article {
     border-radius: 25px;
     padding: 10px 30px 25px 30px;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1;
 	overflow: auto;
 }
 
@@ -260,38 +260,6 @@ article h2 {
 .mainpic{
     width: 100%;
     height: auto;
-}
-
-.preview-element{
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.preview-element-last{
-    width: 100%;
-    margin: 0;
-}
-
-.preview-element-last h3{
-    font-size: 25px;
-    margin: 20px 0 0 0;
-    color: #345349;
-}
-
-.preview-element h3{
-    font-size: 25px;
-    margin: 20px 0 0 0;
-    color: #345349;
-}
-
-.preview-quote{
-    width: 100%;
-}
-
-.preview-quote h4{
-    font-style: italic;
-    margin-top: 15px;
-    font-weight: normal;
 }
 
 .survey{
@@ -338,10 +306,11 @@ article h2 {
 .image-referal{
     text-align: left;
     font-size: 11px;
-    margin-top: -1%;
+    margin: 0;
     color: #345349;
 	font-weight: bold;
 	font-style: italic;
+    line-height: 1;
 	
 }
 
@@ -769,26 +738,6 @@ footer {
     }
     .column2 {
         width: 100%;
-    }
-    
-    .intro{
-        text-align: center;
-    }
-    
-    .problem{
-        text-align: center;
-    }
-
-    .solution{
-        text-align: center;
-    }
-    
-    .dogwalking{
-		width: 100%;
-    }
-    
-    .lonelyimg{
-        margin-left: 0;
     }
 
     

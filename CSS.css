@@ -7,9 +7,9 @@ body{
 
 .nav-desktop {
     margin: 0px;
+	width: 100%;
     padding: 0px;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0px;
     z-index: 1;
 }
@@ -225,8 +225,8 @@ main {
     background-color: #EDF5E1;
     overflow: visible;
     width: 100%;
-    float: left;
-    
+	padding-top: 125px;
+	padding-bottom: 1px;
 }
 
 article {

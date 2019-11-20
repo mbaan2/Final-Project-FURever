@@ -326,8 +326,44 @@ article h2 {
 	font-weight: bold;
 	font-style: italic;
     line-height: 1;
-	
 }
+
+.skip-tab-box-locations{
+	height: 0;
+	position: relative;
+	background-color: #EDF5E1;
+	text-align: center;
+}
+
+
+.skip-tab-location{
+	z-index: -1;
+	left: -220px;
+	position: absolute;
+	text-decoration: none;
+}
+
+.skip-tab-location table{
+	width: 100%;
+}
+
+.skip-tab-location td{
+	text-align: center;
+	width: 50%;
+}
+
+.skip-tab-location:focus {
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: #345349;
+	color: #EDF5E1;
+	margin: 0;
+	text-align: center;
+}
+
+
 
 
 /* End homepage */
@@ -341,6 +377,7 @@ article h2 {
 	height: 0;
 	position: relative;
 	background-color: #EDF5E1;
+	width: 100%;
 }
 
 
@@ -360,7 +397,7 @@ article h2 {
 	color: #EDF5E1;
 	font-size: 30px;
 	margin: 0;
-	width: 100%;
+	width: calc(100% - 20px);
 	text-align: center;
 	padding: 10px;
 }

@@ -243,11 +243,6 @@ article h2 {
     color: #345349; 
 }
 
-.mainpic{
-    width: 100%;
-    height: auto;
-}
-
 .survey{
     overflow: hidden;
 }
@@ -256,19 +251,7 @@ article h2 {
     float: left;    
 }
 
-.feedbackpic{
-    width: 100%;
-	height: auto;
-    margin: 0;
-}
-
-
-.lonelyimg{
-    width: 100%;
-    height: auto;
-}
-
-.dogwalking{
+.main-images{
     width: 100%;
     height: auto;
 }

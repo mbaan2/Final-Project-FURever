@@ -81,7 +81,7 @@ nav div img {
 .textsize {
     margin: 0;
     padding: 0;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .textsize a {
@@ -94,25 +94,43 @@ nav div img {
 }
 
 .textsize-small {
-    font-size: 100%;
+    font-size: 25px;
 }
 
 .textsize-medium {
-    font-size: 150%;
+    font-size: 35px;
 }
 
 .textsize-large {
-    font-size: 200%;
+    font-size: 50px;
 }
 
-#text-small {
+.text-small p {
     font-size: 100%;
 }
-#text-medium {
+.text-small h1 {
+    font-size: 55px;
+}
+.text-small h2, h3 {
+    font-size: 25px;
+}
+.text-medium p {
     font-size: 150%;
 }
-#text-large {
+.text-medium h1 {
+    font-size: 82.5px;
+}
+.text-medium h2, h3 {
+    font-size: 37.5px;
+}
+.text-large p {
     font-size: 200%;
+}
+.text-large h1 {
+    font-size: 110px;
+}
+.text-large h2, h3 {
+    font-size: 50px;
 }
 
 .language {
@@ -246,14 +264,14 @@ a {
 article h1 {
     font-size: 55px;
     text-align: center;
-    margin: 0;
+    margin: 10px;
     color: #345349;
 }
 
 article h2 {
     font-size: 25px;
     text-align: center;
-    margin: 0;
+    margin: 10px;
     color: #345349; 
 }
 

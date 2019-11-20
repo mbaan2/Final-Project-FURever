@@ -677,25 +677,24 @@ footer {
     }
 
     .hidden {
-        height: 150px;
+        height: 190px;
         width: 100%;
         background-color: #345349;
-    }
-
-    .hidden ul {
-        display: block;
+        border: solid black;
+        border-top: none;
     }
 
     .hidden a {
         color: #EDF5E1;
-		font-size: 35px
+		font-size: 35px;
         text-decoration: none;
     }
 
-    li a {
-        text-align: center;
+    .phone-textsize span{
+        color: #EDF5E1;
+		font-size: 35px;
+        text-decoration: none;
     }
-
     
     .language-phone{
         height: 85px;

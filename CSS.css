@@ -102,7 +102,7 @@ nav div img {
     font-size: 50px;
 }
 
-.text-small p {
+.text-small {
     font-size: 100%;
 }
 .text-small h1 {
@@ -111,7 +111,7 @@ nav div img {
 .text-small h2, h3 {
     font-size: 25px;
 }
-.text-medium p {
+.text-medium {
     font-size: 150%;
 }
 .text-medium h1 {
@@ -120,7 +120,7 @@ nav div img {
 .text-medium h2, h3 {
     font-size: 37.5px;
 }
-.text-large p {
+.text-large {
     font-size: 200%;
 }
 .text-large h1 {
@@ -515,7 +515,6 @@ footer {
 }
 
 .footer-slogan h2{
-    font-size: 35px;
     margin: 15px 0;
 }
 
@@ -547,12 +546,11 @@ footer {
 }
 
 .footer-sitemap h2 {
-    margin: 20px;
+    margin: 10px;
 }
 
 .footer-sitemap h2 a{
     color: #EDF5E1;
-    font-size: 40px;
     text-decoration: none;
 }
 
@@ -596,7 +594,7 @@ footer {
 
 .footer-download img {
     margin: 10px;
-    width: 10%;
+    width: 50px;
 }
 
 

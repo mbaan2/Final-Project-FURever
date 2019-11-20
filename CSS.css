@@ -294,33 +294,6 @@ article h2 {
     font-weight: normal;
 }
 
-.intro{
-    text-align: justify;
-}
-
-.intro p{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.problem{
-    text-align: justify;
-}
-
-.problem p{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.solution{
-    text-align: justify;
-}
-
-.solution p{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 .survey{
     overflow: hidden;
 }
@@ -372,17 +345,6 @@ article h2 {
 	
 }
 
-.imageholder2{
-    padding-bottom: 35px;
-}
-
-.imageholder2 p{
-    text-align: left;
-    font-size: 15px;
-    margin-left: 5%;
-    margin-top: -1%;
-    color: #345349;
-}
 
 /* End homepage */
 

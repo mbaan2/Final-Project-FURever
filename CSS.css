@@ -186,21 +186,6 @@ nav div img {
     display: none;
 }
 
-/*Strip the ul of padding and list styling*/
-.hidden ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    position: absolute;
-    display: none;
-}
-.hidden ul li {
-    width: 100%;
-    display: block;
-    float: left;
-    padding-top: 25px;
-}
-
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;

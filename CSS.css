@@ -91,19 +91,15 @@ nav div img {
 }
 
 .textsize-small {
-    font-size: 25px;
-}
-
-.textsize-medium {
     font-size: 35px;
 }
 
-.textsize-large {
+.textsize-medium {
     font-size: 50px;
 }
 
 .text-small {
-    font-size: 100%;
+    font-size: 20px;
 }
 .text-small h1 {
     font-size: 55px;
@@ -112,22 +108,13 @@ nav div img {
     font-size: 25px;
 }
 .text-medium {
-    font-size: 150%;
+    font-size: 30px;
 }
 .text-medium h1 {
     font-size: 82.5px;
 }
 .text-medium h2, h3 {
     font-size: 37.5px;
-}
-.text-large {
-    font-size: 200%;
-}
-.text-large h1 {
-    font-size: 110px;
-}
-.text-large h2, h3 {
-    font-size: 50px;
 }
 
 .language {
@@ -713,7 +700,7 @@ footer {
     }
 
     .hidden {
-        height: 210px;
+        height: 190px;
         width: 100%;
         background-color: #345349;
         border: solid black;

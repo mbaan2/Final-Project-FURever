@@ -558,8 +558,10 @@ footer {
 
 }
 
-.footer-logo img{
-    height: 200px;
+.footer-logo a img{
+	width: 100%;
+	max-width: 220px;
+    height: auto;
 }
 
 .footer-sitemap{

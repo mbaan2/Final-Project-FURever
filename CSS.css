@@ -713,7 +713,8 @@ footer {
     /*Main */
     
     main{
-        margin-top: 85px;
+        margin-top: 0px;
+		padding-top: 85px;
     }
 
     article{

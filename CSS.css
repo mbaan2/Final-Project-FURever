@@ -542,9 +542,10 @@ footer {
     border-bottom: 1px solid #EDF5E1;
 }
 
-.footer-slogan h2{
-    margin: 15px 0;
+.footer-slogan h1 {
+	margin: 10px;
 }
+
 
 
 .footer-logo{
@@ -634,7 +635,11 @@ footer {
 
 
 
+.anchor:target{
+	padding-top: 130px;
+}
 
+	
 
 
 
@@ -777,9 +782,6 @@ footer {
     
     /* Footer */
     
-    .footer-slogan h2{
-        font-size: 30px;
-    }
     
     .footer-logo{
         height: 170px;

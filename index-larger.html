@@ -6,37 +6,36 @@
 	<link rel="stylesheet" type="text/css" href="CSS.css">
 	<title>FUR-ever - Home</title>
 </head>
-<body class="text-small">
-
+<body class="text-medium">
     
-<nav class="nav-desktop" tabindex="0">
+<nav class="nav-desktop">
     <div class="logo">
-        <a href="index-small.html" tabindex="0" aria-label="Welcome to FUR ever. This logo links to the homepage">        
+        <a href="index-larger.html" tabindex="0" aria-label="Welcome to FUR ever. This logo links to the homepage">        
 			<img src="logo1.png" alt="Logo FURever link to homepage">
 		</a>
     </div>
     <div class="nav-main">
         <div class="top-nav">
-			<a class="top-nav-text textsize-small" id="active"  href="index-small.html" tabindex="0" aria-label="Link to home">Home</a>
-        	<a class="top-nav-text textsize-small" href="FAQ-small.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
+			<a class="top-nav-text textsize-medium" id="active"  href="index-larger.html" tabindex="0" aria-label="Link to home">Home</a>
+        	<a class="top-nav-text textsize-medium" href="FAQ-larger.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
         </div>
     <div class="under-nav">
         <div class="textsize">
-            <span class="textsize-small">Textsize:</span>
-            <a class="textsize-small" href="index-small.html" tabindex="0" id="active">A</a>
-            <a class="textsize-medium" href="index.html" tabindex="0">A</a>
+            <span class="textsize-medium">Textsize:</span>
+            <a class="textsize-small" href="index.html" tabindex="0">A</a>
+            <a class="textsize-medium" href="index-larger.html" tabindex="0" id="active">A</a>
         </div>
     </div>
     </div>
     <div class="language">
 			<div class="width-lang">
-        <a class="lang-active" href="index-small.html" tabindex="0">
+        <a class="lang-active" href="index-larger.html" tabindex="0">
         	<img class="flag-uk" src="uk.png" alt="Changes the language to English">
 			<!-- Source: https://pixabay.com/illustrations/union-jack-british-flag-uk-english-1027898/ -->
         </a>
 			</div>
 			<div class="width-lang">
-        <a href="NOindex-small.html" tabindex="0">
+        <a href="NOindex-larger.html" tabindex="0">
 			<img class="flag-norway" src="norway.png" alt="Changes the language to Norwegian">
 			<!-- Source: https://pixabay.com/vectors/norway-flag-national-flag-nation-162381/ -->
         </a>
@@ -47,7 +46,7 @@
     
 <nav class="nav-phone">
     <div class="logo-phone">
-        <a href="index-small.html" tabindex="0">        
+        <a href="index.html" tabindex="0">        
             <img src="logo1.png" alt="Logo FURever">
 		</a>   
     </div>
@@ -55,33 +54,32 @@
         <label for="show-menu" class="show-menu">
             <img src="phone-menu.png" alt="Menu button FURever">
         </label>
-            <input type="checkbox" id="show-menu" role="button">   
-            <!-- Source https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg --> 
+            <input type="checkbox" id="show-menu" role="button" tabindex="0">   
+			<!-- Source https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg --> 
         <div class="hidden">
     
-                    <a id="active" href="index-small.html" tabindex="0" aria-label="Link to home">Home</a>
+                    <a id="active" href="index.html" tabindex="0" aria-label="Link to home">Home</a>
                     <br>
-                    <a href="FAQ-small.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
+                    <a href="FAQ.html" tabindex="0" aria-label="Link to Frequently Asked Questions">FAQ</a>
                     <br>
                     <br>
         <div class="phone-textsize">
             <span>Textsize:</span>
             <br>
-            <a class="textsize-small" href="index-small.html" tabindex="0" id="active">A</a>
-            <a class="textsize-medium" href="index.html" tabindex="0">A</a>
-            <a class="textsize-large" href="index-large.html" tabindex="0">A</a>   
+            <a class="textsize-small" href="index.html" tabindex="0">A</a>
+            <a class="textsize-medium" href="index-larger.html" tabindex="0" id="active">A</a>
         </div>
     </div>
  </div>
     <div class="language-phone">
 		<div class="width-lang">
-        <a class="lang-active" href="index-small.html" tabindex="0">
+        <a class="lang-active" href="index-larger.html" tabindex="0">
             <img class="flag-uk-phone" src="uk.png" alt="Changes the language to English">
 			<!-- Source: https://pixabay.com/illustrations/union-jack-british-flag-uk-english-1027898/ -->
         </a>
 		</div>
 		<div class="width-lang">
-        <a href="NOindex-small.html" tabindex="0">
+        <a href="NOindex-larger.html" tabindex="0">
             <img class="flag-norway-phone" src="norway.png" alt="Changes the text to Norwegian">
 			<!-- Source: https://pixabay.com/vectors/norway-flag-national-flag-nation-162381/ -->
         </a>
@@ -101,7 +99,8 @@
 		<a class="skip-tab" href="#preview" tabindex="0">Preview</a>
 		<a class="skip-tab" href="#location" tabindex="0">Location & opening hours</a>
 	</div>
-    
+	
+	
 	
 <article>
     <h1 tabindex="0">FURever</h1>
@@ -218,7 +217,7 @@
             </div>
             <div class="column2-text">
                 <h2 tabindex="0">Collect rewards!</h2>
-                <p tabindex="0">Exchange your points for different kinds of rewards. If you encounter any problems, please don't hesitate to <a href="faq.html" tabindex="0">contact us</a>.</p>
+                <p tabindex="0">Exchange your points for different kinds of rewards. If you encounter any problems, please don't hesitate to <a href="FAQ-larger.html" tabindex="0">contact us</a>.</p>
             </div>
         </div>
     </div>
@@ -226,11 +225,26 @@
 
     
 <article>
-    <a id="location"></a>
-    <h1 tabindex="0">Locations & opening hours</h1>
+    <h1 id="location" tabindex="0">Locations & opening hours</h1>
 	<p tabindex="0"> We are located throughout Oslo, near the local transportation. Drop by within the opening hours to meet our volunteers and to spend time with the lovely dogs.
     </p>
     <p tabindex="0"><b>Click on</b> a shelter to see the opening hours! </p>
+	<div class="skip-tab-box-locations">
+		<div class="skip-tab-location" tabindex="0">
+			<h3>Majorstuen</h3>
+			<table>
+				<tr>
+					<td><p>Mondag - Friday</p></td>
+					<td><p>9:00 - 12:00</p></td>
+				</tr>
+				<tr>
+					<td><p>Saterday - Sunday</p></td>
+					<td><p>9:00 - 12:00</p></td>
+				</tr>
+			</table>
+			<p> Adress: bogstadsveien 12</p>
+		</div>
+	</div>
     <iframe class="maps-locations" src="https://www.google.com/maps/d/embed?mid=1gExJGhXx01v80-7v2VRtXFU47hRvBWkg" tabindex="0"></iframe>
     <br>
     <p tabindex="0">
@@ -240,37 +254,35 @@
 </main>
     
     
-    
 <footer>
     <div class="footer-slogan">
         <h2 tabindex="0" aria-label="Our slogan: Let the dogs out and the happiness in!"> Let the dogs out and the happiness in!</h2>  
     </div>
     
     <div class="footer-logo">
-        <a href="index-small.html">
-        <img src="logo1.png" alt="Logo FURever link to homepage" tabindex="0">
+        <a href="index-larger.html" tabindex="0">
+        <img src="logo1.png" alt="Logo FURever link to homepage">
         </a>
     </div>
     <div class="footer-sitemap">
         <h2>
-			<a href="index.html" tabindex="0" aria-label="Link to home">Home</a>
+			<a href="index-larger.html" tabindex="0" aria-label="Link to home">Home</a>
 		</h2>
         <h2>
-			<a href="FAQ.html" tabindex="0" aria-label="Link to Frequently asked questions">FAQ</a>
+			<a href="FAQ-larger.html" tabindex="0" aria-label="Link to Frequently asked questions">FAQ</a>
 		</h2>
     </div>
     
     <div class="footer-contact">
-        <h2 tabindex="0" aria-label="Contact information">Contact us:</h2>
-        <p tabindex="0" aria-label="Email adress is office@furever.com">
-            <a href="mailto:office@furever.com">office@furever.com</a></p>
+        <h2 aria-label="Contact information" tabindex="0">Contact us:</h2>
+            <a href="mailto:office@furever.com" tabindex="0">office@furever.com</a>
         <p tabindex="0" aria-label="Our phonenumber is 004712345678">+4712345678</p>
          <!--Email and phone number has to be activated -->
     </div>    
     <div class="footer-download">
         <h2 tabindex="0">Download us directly here:</h2>
-        <a href="download.html" tabindex="0" aria-label="Link to Appstore download"><img src="apple.png" alt="apple logo"></a>
-        <a href="download.html" tabindex="0" aria-label="Link to Play store download"><img src="play-store.png" alt="play store logo"></a>
+        <a href="download-larger.html" tabindex="0" aria-label="Link to Appstore download"><img src="apple.png" alt="apple logo"></a>
+        <a href="download-larger.html" tabindex="0" aria-label="Link to Play store download"><img src="play-store.png" alt="play store logo"></a>
     </div> 
 </footer>
 

@@ -684,13 +684,13 @@ footer {
     }
     
     .show-menu img{
-        width: calc(100% / 3);
         height: 85px;
+		width: auto;
         color: #EDF5E1;
     }
 
     .hidden {
-        height: 200px;
+        height: 150px;
         width: 100%;
         background-color: #345349;
     }
@@ -701,7 +701,7 @@ footer {
 
     .hidden a {
         color: #EDF5E1;
-        font-size: 200%;
+		font-size: 35px
         text-decoration: none;
     }
 

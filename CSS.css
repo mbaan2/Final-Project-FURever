@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Calibri", sans-serif;
+	overflow-x: hidden;
 }
 
 
@@ -45,7 +46,6 @@ nav div img {
     background-color: #345349;
     opacity: 1;
 }
-
 
 
 .top-nav-text {
@@ -223,6 +223,7 @@ article {
     text-align: justify;
     line-height: 1;
 	overflow: auto;
+	overflow-x: hidden;
 }
 
 a {
@@ -315,6 +316,16 @@ article h2 {
 	color: #EDF5E1;
 	margin: 0;
 	text-align: center;
+}
+
+.tab-back-home{
+	position: absolute;
+	left: -2200px;
+}
+
+.tab-back-home:focus{
+	position: inherit;
+	
 }
 
 
@@ -548,9 +559,15 @@ footer {
     text-decoration: none;
 }
 
+.footer-under{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #345349;
+}
+
 
 .footer-contact{
-    height: calc(275px - 30px);
     padding-top: 30px;
     background-color: #345349;
     color: #EDF5E1;
@@ -574,7 +591,6 @@ footer {
 }
 
 .footer-download{
-    height: calc(275px - 30px);
     padding-top: 30px;
     background-color: #345349;
     color: #EDF5E1;
@@ -593,6 +609,19 @@ footer {
 }
 
 
+.footer-copyright{
+	width: 100%;
+	background: #345349;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.footer-copyright p{
+	color: #EDF5E1;
+	font-size: 70%;
+	margin: 0;
+}
 
 
 
@@ -728,6 +757,9 @@ footer {
     }
     
     
+	.anchor:target{
+	padding-top: 85px;
+}
     
     
     
@@ -772,7 +804,7 @@ footer {
         margin: 15px 0;
     }
     .footer-sitemap h2 a{
-        font-size: 25px;
+        font-size: 45px;
     }
     .footer-logo img{
         height: 100%;

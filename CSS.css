@@ -787,6 +787,10 @@ footer {
     line-height: 1.5;
     }
     
+    .text-medium h1 {
+    font-size: 60px;
+}
+    
     /* Footer */
     
     

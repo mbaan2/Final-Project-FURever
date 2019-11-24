@@ -213,7 +213,7 @@ main {
     width: 100%;
 	padding-top: 125px;
 	padding-bottom: 1px;
-    min-height: 415px;
+    min-height: 481px;
 }
 
 article {
@@ -689,6 +689,12 @@ footer {
         display: block;
     }
     
+    .phone-links a{
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+    }
+    
     .logo-phone{
         width: calc(100% / 3);
         height: 85px;
@@ -736,11 +742,19 @@ footer {
 		font-size: 35px;
         text-decoration: none;
     }
+    
+    .phone-textsize{
+        
+    }
 
     .phone-textsize span{
         color: #EDF5E1;
 		font-size: 35px;
         text-decoration: none;
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+        
     }
     
     .language-phone{

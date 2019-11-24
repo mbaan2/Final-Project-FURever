@@ -114,7 +114,7 @@ nav div img {
     font-size: 82.5px;
 }
 .text-medium h2, h3 {
-    font-size: 37.5px;
+    font-size: 35px;
 }
 
 .language {
@@ -253,8 +253,21 @@ article h2 {
 }
 
 .main-images{
-    width: 100%;
+    width: 70%;
+	min-width: 440px;
     height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.review-image{
+	width: 100%;
+	max-width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .discounts1{
@@ -276,11 +289,15 @@ article h2 {
 .image-referal{
     text-align: left;
     font-size: 11px;
-    margin: 0;
     color: #345349;
 	font-weight: bold;
 	font-style: italic;
     line-height: 1;
+	width: 70%;
+	min-width: 440px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .skip-tab-box-locations{
@@ -535,7 +552,7 @@ footer {
 
 .footer-logo a img{
 	width: 100%;
-	max-width: 220px;
+	max-width: 260px;
     height: auto;
 }
 
@@ -551,7 +568,8 @@ footer {
 }
 
 .footer-sitemap h2 {
-    margin: 10px;
+    margin: 10px 0;
+	font-size: 40px;
 }
 
 .footer-sitemap h2 a{
@@ -568,13 +586,13 @@ footer {
 
 
 .footer-contact{
-    padding-top: 30px;
+    padding-top: 20px;
     background-color: #345349;
     color: #EDF5E1;
     width: calc(100% /2);
     float: left;
     text-align: center;
-	word-break: break-all;
+	word-break: break-word;
 }
 
 .footer-contact h2{
@@ -583,18 +601,22 @@ footer {
 
 .footer-contact p {
     text-decoration: underline;
-    margin: 10px;
+    margin: 10px 3px;
+	font-size: 90%;
 }
 
 .footer-contact a {
     color: #EDF5E1;
+	margin: 10px 3px;
 }
 
 .footer-download{
-    padding-top: 30px;
+    padding-top: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
     background-color: #345349;
     color: #EDF5E1;
-    width: calc(100% /2);
+    width: calc(50% - 4px);
     float: left;
     text-align: center;
 }
@@ -615,6 +637,7 @@ footer {
 	height: auto;
 	float: left;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 .footer-copyright p{
@@ -788,9 +811,20 @@ footer {
     }
     
     .text-medium h1 {
-    font-size: 60px;
+    font-size: 55px;
 }
     
+	.main-images{
+	width: 100%;
+	min-width: 0;
+	margin-left: 0;
+	}
+	
+	.image-referal{
+		min-width: 0;
+		margin: 0;	
+	}
+	
     /* Footer */
     
     
@@ -803,33 +837,21 @@ footer {
         width: calc(50% - 20px);
         padding: 10px
     }
-    
-    .footer-sitemap h2{
-        margin: 15px 0;
-    }
-    .footer-sitemap h2 a{
-        font-size: 45px;
-    }
-    .footer-logo img{
-        height: 100%;
-        width: auto;
-    }
+	
+	.footer-logo a img{
+	width: 100%;
+	max-width: 220px;
+    height: auto;
+}
     
     .footer-contact{
         padding-top: 15px;
     }
     
-    .footer-contact h2{
-        font-size: 25px
-    }
-    
+
     .footer-download{
         padding-top: 15px;
-    }
-    
-    .footer-download h2 {
-        font-size: 25px;
-        
+		word-wrap: break-word;
     }
     
 }

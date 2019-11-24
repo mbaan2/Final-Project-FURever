@@ -213,6 +213,7 @@ main {
     width: 100%;
 	padding-top: 125px;
 	padding-bottom: 1px;
+    min-height: 415px;
 }
 
 article {

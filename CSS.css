@@ -748,10 +748,11 @@ footer {
 
     .hidden {
         height: 250px;
-        width: 100%;
+        width: 90%;
         background-color: #345349;
         border: solid black;
         border-top: none;
+        margin-left: 5%;
     }
 
     .hidden a {

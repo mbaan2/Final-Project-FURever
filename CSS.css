@@ -618,10 +618,12 @@ footer {
     margin: 0;
 }
 
+.footer-text{
+	font-size: 17px;
+}
+
 .footer-contact p {
-    text-decoration: underline;
     margin: 10px 3px;
-	font-size: 90%;
 }
 
 .footer-contact a {

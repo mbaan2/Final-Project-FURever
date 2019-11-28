@@ -750,7 +750,6 @@ footer {
     }
 
     .hidden {
-        height: 250px;
         width: 90%;
         background-color: #345349;
         border: solid black;
@@ -764,21 +763,19 @@ footer {
         text-decoration: none;
     }
     
-    .phone-textsize{
-        
+    .phone-textsize, .phone-links{
+        padding-bottom: 10px;
     }
     
     .phone-textsize a{
         width: 100%;
         display: block;
-        margin-bottom: 10px;
     }
 
     .phone-textsize span{
         color: #EDF5E1;
 		font-size: 35px;
         text-decoration: none;
-        margin-bottom: 10px;
         width: 100%;
         display: block;
         

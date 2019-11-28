@@ -64,9 +64,18 @@ nav div img {
     text-decoration: underline;
 }
 
-#active {
-    text-decoration:underline;
+#active{
+    text-decoration: underline;
 }
+
+#active-text{
+    text-decoration: underline;
+}
+
+#active-text-mobile{
+    text-decoration: underline;
+}
+
 
 .under-nav{
     text-align: center;

@@ -407,7 +407,7 @@ article h2 {
 }
 
 .faq-question-q{
-    width: 15%;
+    width: 20%;
     float: left;
 }
 .faq-question-q h2{
@@ -420,17 +420,17 @@ article h2 {
 /* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
 .faq-question-text{
-    width: 85%;
+    width: 80%;
     float: left;
 }
 
 .faq-question-text h3{
     color: #345349;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     margin: 25px 0;
     vertical-align: middle;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 /* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
@@ -440,28 +440,29 @@ article h2 {
 }
 
 .faq-answer-a{
-    width: 15%;
+    width: 20%;
     float:left;
 }
 
 .faq-answer-a h2{
     color: #345349;
     font-size: 50px;
-    margin: 20px 0;
+    margin: 15px 0;
     vertical-align: middle;
     text-align: center;
 }
 
 .faq-answer-text{
-    width: 85%;
+    width: 80%;
     float: left;
 }
 
-.faq-answer-text h3{
+.faq-answer-text p{
     color: #345349;
-    text-align: center;
-    margin: 30px 0;
+    text-align: left;
+    margin-top: 29px;
     vertical-align: middle;
+	padding-left: 10px;
 }
 
 .faq-contact-p {

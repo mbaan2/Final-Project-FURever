@@ -68,6 +68,10 @@ nav div img {
     text-decoration: underline;
 }
 
+#active-mobile{
+    text-decoration: underline;
+}
+
 #active-text{
     text-decoration: underline;
 }

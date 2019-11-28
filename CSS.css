@@ -343,18 +343,7 @@ article h2 {
 
 .tab-back-home:focus{
 	position: inherit;
-	
 }
-
-
-
-
-/* End homepage */
-
-
-
-
-/* FAQ PAGE */
 
 .skip-tab-box{
 	height: 0;
@@ -393,6 +382,17 @@ article h2 {
 	background-color: #EDF5E1;
 }
 
+/* Tabmenu is based on: https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content /*
+
+
+/* End homepage */
+
+
+
+
+/* FAQ PAGE */
+
+
 .faq-box{
     background: #D7E7E7;
     margin: 40px 10%;
@@ -417,7 +417,6 @@ article h2 {
     vertical-align: middle;
     text-align: center;
 }
-/* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
 .faq-question-text{
     width: 80%;
@@ -432,7 +431,6 @@ article h2 {
     vertical-align: middle;
     padding-left: 10px;
 }
-/* Vetical-align doesn't work because of fix height. Have to double check this.*/
 
 .faq-answer{
     width: 100%;
@@ -470,11 +468,14 @@ article h2 {
     text-align: center;
 }
 
+/* FAQ design based on: https://www.searchenginejournal.com/best-faq-page-examples/267709/ */
+
 
 
 /*Preview part*/
+
 /*
-Sources:
+Sources for the designs:
 phone mockups:
 http://emske.com/samsung-galaxy-s6-psd-mock-up/
 
@@ -666,11 +667,6 @@ footer {
 	font-size: 70%;
 	margin: 0;
 }
-
-
-
-
-
 
 .anchor:target{
 	padding-top: 130px;

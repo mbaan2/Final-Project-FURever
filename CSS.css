@@ -211,7 +211,9 @@ input[type=checkbox]:checked ~ .hidden{
 
 
 /* Navbar based on examples on https://www.w3schools.com/css/css_navbar.asp */
-
+/*responsive menu based on 
+https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/
+*/
 
 
 

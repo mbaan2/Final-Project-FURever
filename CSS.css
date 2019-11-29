@@ -687,6 +687,10 @@ footer {
 	padding-top: 130px;
 }
 
+.footer-sitemap a:hover{
+    text-decoration: underline;
+}
+
 	
 
 
